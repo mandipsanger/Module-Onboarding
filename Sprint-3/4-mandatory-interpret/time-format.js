@@ -40,3 +40,4 @@ console.log(formatTimeDisplay(61));
 // =============> numString = "1" so string has only one character "01" the return value of pad when it is called for the last time in this program is "01".
 // This is because the while loop in the pad function adds a leading zero to the string representation of num until its length is at least 2.
 // Since num is 1, it becomes "01" after one iteration of the loop.
+//
