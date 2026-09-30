@@ -29,5 +29,4 @@ console.log(result);
 // The expression movieLength % 60 calculates the remainder when movieLength is divided by 60. This gives the number of seconds remaining after converting the total length of the movie into minutes and hours.
 // Interpret line 4, the expression assigned to totalMinutes calculates the total number of minutes in the movie by subtracting the remaining seconds from the total length of the movie and dividing by 60.
 // The variable result represents the formatted string of the movie length in hours, minutes, and seconds. A better name for this variable could be formattedMovieLength or movieLengthString.
-// This code will work for all values of movieLength.
-// experimenting with different values of movieLength, such as 1:51:6, 0:55:33 etc., will show that the code correctly formats the length of the movie in hours, minutes, and seconds for all positive values.
+//  experimenting with diferent values. It works correctly for non-negative whole numbers (integers) representing seconds.
